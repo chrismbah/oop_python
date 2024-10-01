@@ -27,21 +27,18 @@ class Vehicle(ABC):
         pass
 
 class Car(Vehicle):
-
     def go(self):
         print("You drive the car")
     def stop(self):
         print("You stop the car")
         
 class Bicycle(Vehicle):
-
     def go(self):
         print("You drive the bicycle")
     def stop(self):
         print("You stop the bicycle")
         
 class Boat(Vehicle):
-
     def go(self):
         print("You sail the boat")    
     def stop(self):
